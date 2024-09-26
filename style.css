@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@1100&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+body {
+    overflow-x: hidden;
+}
+
+.topnav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding-left: 38%;
+}
+
+.topnav a {
+    float: left;
+    color: #CC3300;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topnav a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.topnav a.active {
+    color: black;
+}
+
+.topnav-centered a {
+    justify-self: center;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    z-index: 100;
+}
+
+
+/* home-2 started */
+
+.home-2 {
+    margin: 0;
+    padding: 0;
+}
+
+.home-2 img {
+    margin-left: 42%;
+    width: 200px;
+}
+
+.home-2 p {
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+/* home 2 end */
+
+
+/* fixed background */
+
+.fixed-bg {
+    background-image: url("/img/bg-img.jpg");
+    width: 1550px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-bg .about-text p {
+    justify-self: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 10%;
+    font-family: 'Caveat', cursive;
+    font-weight: 900;
+}
+
+
+/* fixed bg end */
+
+
+/* process start */
+
+.process {
+    background-color: white;
+}
+
+.process h1 {
+    color: #FF6633;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    font-style: unset;
+    margin: 20px;
+}
+
+.process .row img {
+    width: 400px;
+}
+
+.process .row h2 {
+    color: dimgray;
+    font-family: 'Lilita One', sans-serif;
+    font-style: unset;
+    margin-top: 30%;
+}
+
+.process .row p {
+    justify-content: space-around;
+}
+
+
+/* process end */
+
+
+/* product start */
+
+.product h1 {
+    color: #FF6633;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    font-style: unset;
+    margin: 20px;
+}
+
+.product {
+    justify-content: center;
+}
+
+.product img {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+
+.product .row h4 {
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #CC9966;
+    padding-bottom: 4px;
+}
+
+.product .row a {
+    margin-left: 35%;
+    background-color: green;
+    margin-bottom: 2px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.product .row a:hover {
+    background-color: #CC6633;
+}
+
+
+/* product end */
+
+
+/*  BENIFIT SECTION  */
+
+.benifit h1 {
+    color: #FF6633;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    font-style: unset;
+    margin: 20px;
+}
+
+.benifit .blue-line {
+    height: 0.3rem;
+    width: 6rem;
+    background-color: rgb(79, 143, 226);
+    margin-bottom: calc(3rem + 2vmin);
+}
+
+.benifit .row .cl-1 img {
+    width: 50px;
+}
+
+.benifit .row .cl-1 {
+    text-align: right;
+}
+
+.benifit .row .cl-1 h5 {
+    color: #CC6633;
+    font-weight: bold;
+}
+
+.benifit .row .cl-1 ul li {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.benifit .row .cl-2 {
+    text-align: left;
+}
+
+.benifit .row .cl-2 img {
+    width: 50px;
+}
+
+.benifit .row .cl-2 h5 {
+    color: #CC6633;
+    font-weight: bold;
+}
+
+
+/* BENIFIT END */
+
+
+/* review */
+
+.reviews h1 {
+    color: #FF6633;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    font-style: unset;
+    margin: 20px;
+}
+
+button,
+input,
+select {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content-wrapper {
+    height: 100%;
+    width: 70%;
+    max-width: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+button,
+input,
+select {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content-wrapper {
+    height: 100%;
+    width: 70%;
+    max-width: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.wrapper-for-arrows {
+    position: relative;
+    width: 70%;
+    border-radius: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.review-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: calc(2rem + 1vmin);
+    width: 100%;
+}
+
+#imgDiv {
+    border-radius: 50%;
+    width: calc(6rem + 4vmin);
+    height: calc(6rem + 4vmin);
+    position: relative;
+    box-shadow: 5px -3px rgb(79, 143, 226);
+    background-size: cover;
+    margin-bottom: calc(0.7rem + 0.5vmin);
+}
+
+#imgDiv::after {
+    content: "''";
+    font-size: calc(2rem + 2vmin);
+    font-family: sans-serif;
+    line-height: 150%;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: rgb(79, 143, 226);
+    position: absolute;
+    top: 10%;
+    left: -10%;
+    width: calc(2rem + 2vmin);
+    height: calc(2rem + 2vmin);
+}
+
+#personName {
+    margin-bottom: calc(0.7rem + 0.5vmin);
+    font-size: calc(1rem + 0.5vmin);
+    letter-spacing: calc(0.1rem + 0.1vmin);
+    font-weight: bold;
+}
+
+#profession {
+    font-size: calc(0.8rem + 0.3vmin);
+    margin-bottom: calc(0.7rem + 0.5vmin);
+    color: rgb(79, 143, 226);
+}
+
+#description {
+    font-size: calc(0.8rem + 0.3vmin);
+    width: 70%;
+    max-width: 40rem;
+    text-align: center;
+    margin-bottom: calc(1.4rem + 1vmin);
+    color: rgb(92, 92, 92);
+    line-height: 2rem;
+}
+
+.arrow-wrap {
+    position: absolute;
+    top: 50%;
+}
+
+.arrow {
+    width: calc(1.4rem + 0.6vmin);
+    height: calc(1.4rem + 0.6vmin);
+    border: solid rgb(79, 143, 226);
+    border-width: 0 calc(0.5rem + 0.2vmin) calc(0.5rem + 0.2vmin) 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.arrow:hover {
+    transition: 0.3s;
+    transform: scale(1.15);
+}
+
+.left-arrow-wrap {
+    left: 5%;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right-arrow-wrap {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 5%;
+}
+
+.move-head {
+    animation: moveHead 1.55s infinite;
+    animation-delay: -0.8s;
+}
+
+
+/* REVIEWS END */
+
+
+/* top btn */
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+/* btn end */
+
+
+/* footer */
+
+.footer .row h2 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Lilita One', sans-serif;
+}
+
+.footer .row p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .row i {
+    margin-left: 50%;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer .row i:hover {
+    color: black;
+}
+
+.footer .copyright {
+    right: 0;
+    text-align: end;
+    color: white;
+    background-color: green;
+}
+
+
+/* footer end */
+
+
+/* Media query  */
+
+@keyframes moveHead {
+    0% {}
+    25% {
+        transform: translate(0.5rem, 1rem) rotate(5deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(-5deg);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content-wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* navbar */
+    .navbar-brand img {
+        width: 500px;
+        height: 400px;
+    }
+    .topnav {
+        padding: 5px;
+        align-items: center;
+    }
+    /* navbar end */
+    /* Home video  */
+    .home-video video {
+        width: 500px;
+    }
+    /*  Home video end*/
+    /* home-2 */
+    .home-2 img {
+        margin-left: 25%;
+        width: 200px;
+    }
+    /* home-2 end */
+    /* process start */
+    .process .row h2 {
+        color: dimgray;
+        font-family: 'Lilita One', sans-serif;
+        font-style: unset;
+        margin-top: 0%;
+    }
+    /* process end */
+    /* fixed bg */
+    .fixed-bg {
+        background-image: url("/img/bg-img.jpg");
+        width: 500px;
+        min-height: 400px;
+    }
+    .fixed-bg .about-text p {
+        justify-self: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        padding-top: 30%;
+        font-family: 'Caveat', cursive;
+        font-weight: 900;
+    }
+    /* product start */
+    .product img {
+        margin-left: 27%;
+    }
+    .product .row a {
+        margin-left: 38%;
+        padding-bottom: 5px;
+    }
+    /* product end */
+}
+
+
+/* navbar end */

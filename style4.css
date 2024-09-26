@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@1100&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+body {
+    overflow-x: hidden;
+}
+
+.topnav {
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding-left: 36%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topnav a {
+    color: #CC3300;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topnav a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.topnav a.active {
+    color: black;
+}
+
+.topnav-centered a {
+    justify-self: center;
+}
+
+
+/* bg */
+
+.fixed-bg {
+    background-image: url("/img/ab-1.jpg");
+    width: 1650px;
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-top: 25px;
+}
+
+.about-text h1 {
+    margin-top: 20px;
+    color: #FF6633;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    font-style: unset;
+    padding-top: 28px;
+}
+
+
+/* contact start*/
+
+.contact .row .add {
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.contact .row .add h3 {
+    color: #FF6633;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    font-style: unset;
+}
+
+.contact .row .add p {
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact .row .add span {
+    font-weight: 15px;
+    color: #CC3300;
+}
+
+
+/* contact end */
+
+
+/* footer */
+
+.footer .row h2 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Lilita One', sans-serif;
+}
+
+.footer .row p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .row i {
+    margin-left: 50%;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer .row i:hover {
+    color: black;
+}
+
+.footer .copyright {
+    right: 0;
+    text-align: end;
+    color: white;
+    background-color: green;
+}
+
+
+/*  contact start */
+
+.message {
+    justify-items: center;
+    background-image: url("/img/con-1.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.message h1 {
+    color: #FF6633;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    font-style: unset;
+}
+
+.message .form h5 {
+    color: #CC3300;
+    text-align: center;
+    font-weight: 700;
+}
+
+.message button {
+    margin-left: 50%;
+}
+
+.message button:hover {
+    background-color: forestgreen;
+}
+
+
+/* contact end */
+
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+    /* navbar */
+    .topnav {
+        justify-content: space-between;
+        padding-left: 8%;
+        padding-top: 5px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .topnav a {
+        color: #CC3300;
+        text-align: center;
+        padding: 2px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* heading */
+    .fixed-bg {
+        position: relative;
+        background-image: url("/img/ab-1.jpg");
+        width: 550px;
+        height: 100px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: repeat-x;
+        background-size: cover;
+        margin-top: 2px;
+    }
+    .about-text h1 {
+        margin-top: 15%;
+        color: #FF6633;
+        text-align: center;
+        font-family: 'Lilita One', sans-serif;
+        font-style: unset;
+        padding-top: 3%;
+    }
+}
