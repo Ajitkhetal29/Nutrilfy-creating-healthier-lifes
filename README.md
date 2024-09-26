@@ -1,6 +1,10 @@
 ## Nutrilfy - Creating Healthier Lives
 🌿 Nutrilfy is a website that showcases a company's mission to promote healthier living through a range of sugarcane-based products.
 
+## 📸 Screenshots
+Homepage
+<img src="/img/home_page_sc.png" alt="">
+
 ## 🛠️ Project Overview
 Nutrilfy is a front-end project designed to demonstrate HTML, CSS, and JavaScript skills. The website highlights a company specializing in producing and marketing various sugarcane-derived products like jaggery blocks, candy, powder, and syrup. This project is aimed at both promoting the company’s products and practicing front-end web development skills.
 
@@ -27,12 +31,6 @@ CSS3: For styling, including the use of Tailwind CSS.
 JavaScript: For adding interactive elements like dropdown menus.
 Bootstrap (optional): For additional responsive and UI components.
 
-
-## 📸 Screenshots
-Homepage
-<img src="/img/home_page_sc.png" alt="">
-
-(Replace the # with the actual image URLs of the screenshots if you want to add them)
 
 ## 📝 Installation & Setup
 Clone the repository:
