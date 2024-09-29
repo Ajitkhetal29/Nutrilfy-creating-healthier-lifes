@@ -10,8 +10,8 @@ Nutrilfy is a front-end project designed to demonstrate HTML, CSS, and JavaScrip
 
 
 ## 🚀 Live Demo
-You can check out the live demo of the project here: Demo Link
-(Replace # with the actual demo link)
+You can check out the live demo of the project here:
+https://glistening-fudge-3f238a.netlify.app/
 
 ## 📂 Project Structure
 index.html: Homepage that introduces the company and its product categories.
